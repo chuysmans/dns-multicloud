@@ -30,7 +30,7 @@ variable "aws_region" {
 }
 
 # Azure
-
+/*
 variable "create_azure_dns_zone" {
   description = "Set to true if you want to deploy the Azure delegated zone."
   type        = bool
@@ -58,3 +58,4 @@ variable "gcp_region" {
   description = "GCP region, e.g. us-east1"
   default     = "europe-west3"
 }
+*/

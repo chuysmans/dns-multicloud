@@ -1,5 +1,5 @@
 # GCP SUBZONE
-
+/*
 resource "google_dns_managed_zone" "gcp_sub_zone" {
   count = var.create_gcp_dns_zone ? 1 : 0
   name              = "${var.namespace}-zone"
@@ -12,3 +12,5 @@ resource "google_dns_managed_zone" "gcp_sub_zone" {
     created-by = var.created-by
   }
 }
+
+*/

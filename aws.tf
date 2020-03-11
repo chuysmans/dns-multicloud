@@ -82,3 +82,4 @@ resource "aws_route53_zone" "gcp_sub_zone" {
      gcpns
     ]
  }
+*/
